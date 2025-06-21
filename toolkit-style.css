@@ -1,0 +1,73 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: #004c99;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Main Toolkit Section */
+.toolkit-section {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.toolkit-section h2 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #004c99;
+}
+
+.toolkit-section p {
+  margin-bottom: 15px;
+}
+
+.toolkit-section a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 15px;
+  background-color: #004c99;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.toolkit-section a:hover {
+  background-color: #0066cc;
+}
+
+.flowchart-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 50px;
+  color: #777;
+}
